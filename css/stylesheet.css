@@ -12,6 +12,41 @@
     
     }
 
+    /* About page */
+    
+
+.about-title 
+{
+  margin-top: 40px;
+  display:inline-block;
+  font-size: 25px;
+  background:rgba (0,0,0,0.75);
+  color:blueviolet;
+  line-height:35px;
+  font-weight: bold;
+  font-family: Rubik, Helvetica, Roboto, Arial,sans-serif;
+  justify-content: center;
+}
+
+.blockquote
+{
+  font-size: 20px;
+  color:black; 
+  line-height:35px; 
+  font-family: Rubik, Helvetica, Roboto, Arial,sans-serif;
+
+
+}
+.landing-image
+{
+  width:60%;
+  margin-top: 20px;
+  border-radius:35%;
+  box-shadow:0 0 20px #999999;
+}
+
+/* End of about page */
+
 /* ------ FORM STYLING ----------------*/
 .contact-form
 {
@@ -43,31 +78,12 @@
 }
 /* ------END OF FORM STYLING ----------------*/
 /* Footer */
-    .page-footer {
-      background-color:#e5e5e5;
-      color: black;
-      padding: 60px 0 30px;
-    }
-    .registration-number {
-      color: #666;
-      padding: 10px 0;
-    }
-    .GTF-logo img
-    {
-      width: 400px;
-      margin-block-end: 10px;
-    
-    }
-    .GTF-link {
-      color:#114371;
-      text-decoration: underline;
-    }
-
 
     .page-footer
-    {
+    {   position: fixed;
         background-color: #9d2e28;
-        padding-top: 1rem;
-        padding-bottom:1rem;
+        width: 100%;
+        bottom: 0;
+        left: 0;
         
     }
