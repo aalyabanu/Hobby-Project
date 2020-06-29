@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+  <title>STEM Sheffield</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light navbar-expand-sm" style="background-color:#f6f6f6; ">
+    <div class="container">
+      <a class="navbar-brand d-none d-sm-inline-block" href="#">
+        <img src="images/mylogo.png" style="width:150px;" alt="STEM Sheffield logo">
+      </a>
+      <div class="navbar-nav ml-sm-auto">
+        <a class="nav-item nav-link " href="index.html">Home</a>
+        <a class="nav-item nav-link" href="#">Blog</a>
+        <div class="dropdown">
+          <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="ResourcesDropdown"
+            aria-haspopup="true" aria-expanded="false" href="#">Resources</a>
+
+          <div class="dropdown-menu" aria-labelledby="ResourcesDropdown">
+            <a class="dropdown-item" href="#">STEM Activities</a>
+            <a class="dropdown-item" href="#">BOOK Reviews</a>
+            <a class="dropdown-item" href="#">Useful Links</a>
+          </div>
+          <!--dropdown-menu-->
+        </div>
+        <!--dropdown-->
+
+
+        <a class="nav-item nav-link" href="#">STEM Girls</a>
+        <a class="nav-item nav-link" href="#">About</a>
+        <a class="nav-item nav-link active" href="#">Contact</a>
+      </div>
+      <!--navbar-nav-->
+    </div>
+    <!--container-->
+  </nav>
+
+  <div class="contact-form mx-auto">
+
+    <h2 class="form-header my-4">Contact form</h2>
+    <p> <strong> We believe in the power of partnership and collaboration-at both a local and national level- in
+        supporting individuals and families to engage in STEM learning.</strong></p><br />
+    <p>If you are from an organisation that runs STEM activities and would like to be featured on our What's On page,
+      please complete the contact form with your details and a brief info on the events that you run and we will get in
+      touch with you shortly.</p>
+
+
+    <form>
+      <hr>
+      <fieldset class="form-group">
+        <legend mt>Your Info</legend>
+
+        <div class="form-group my-2">
+          <label for="ownername">Your name</label>
+          <input class="form-control" type="text" id="yourname" placeholder="Your Name">
+        </div><!-- form-group -->
+
+        <div class="form-inline my-4">
+          <label for="youremail">Email address</label>
+          <input class="form-control mx-sm-3" type="email" id="youremail" aria-describedby="emailHelp"
+            placeholder="Enter email">
+          <small class="form-text text-muted-dark" id="emailHelp">We'll never share your email</small>
+        </div><!-- form-group -->
+
+      </fieldset><!-- fieldset -->
+      <fieldset class="form-group">
+
+        <legend>Organisation Info</legend>
+
+        <div class="form-group my-2">
+          <label for="organisationname">Organisation name</label>
+          <input class="form-control" type="text" id="organisationname" placeholder="Your Organisation's name">
+        </div><!-- form-group -->
+
+        <div class="form-group">
+          <label for="organisationtype">Organisation type</label>
+          <select class="form-control" id="organisationtype">
+            <option>Choose</option>
+            <option value="school">School</option>
+            <option value="library">Library</option>
+            <option value="company">Company</option>
+            <option value="other">Other</option>
+          </select>
+        </div><!-- form-group -->
+
+        <div class="form-group">
+          <label for="detailsoftheevent">Details of the event</label>
+          <textarea class="form-control" id="detailsoftheevent" rows="5"></textarea>
+        </div><!-- form-group -->
+      </fieldset><!-- fieldset -->
+
+      <fieldset class="form-group">
+
+        <div class="form-group mt-2">
+          <label class="d-block">Is it a free or a paid event?</label>
+
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="free" value="yes" checked> Free
+            </label>
+          </div><!-- form-check -->
+
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="paid" value="no"> Paid
+            </label>
+          </div><!-- form-check -->
+
+        </div><!-- form-group -->
+
+        <div class="form-group mt-4">
+          <label>Please specify your target attendee.</label>
+
+          <div class="form-check mt-2">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Families
+            </label>
+          </div><!-- form-check -->
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Children (under 5 years)
+            </label>
+          </div><!-- form-check -->
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Children (5-11 years)
+            </label>
+          </div><!-- form-check -->
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Teens (12-17 years)
+            </label>
+          </div><!-- form-check -->
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Adults (18+ years)
+            </label>
+          </div><!-- form-check -->
+
+
+
+
+        </div><!-- form-group -->
+
+      </fieldset><!-- form-group -->
+
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+
+  </div><!-- contact-form -->
+
+
+
+
+
+  <footer class="page-footer">
+    <div class="container-fluid text-white text-center my-4">
+      &copy; STEM Sheffield 2020
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
