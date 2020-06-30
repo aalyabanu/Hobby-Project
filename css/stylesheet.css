@@ -14,9 +14,7 @@
 
 }
 
-/* About page */
-     
-
+/* About page */  
 .about-title 
 {
   margin-top: 40px;
@@ -47,9 +45,7 @@
   box-shadow:0 0 20px #999999;
 }
 
-/* End of about page */
-
-/* ------ FORM STYLING ----------------*/
+/* FORM STYLING */
 .contact-form
 {
 			background:#3ea48c;
@@ -78,10 +74,9 @@
   margin-right: 60px ;
 
 }
-/* ------END OF FORM STYLING ----------------*/
-/* Footer */
 
-    .page-footer
+/* Footer */
+ .page-footer
     {   position: fixed;
         background-color: #9d2e28;
         width: 100%;
