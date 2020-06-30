@@ -1,3 +1,12 @@
+.jumbotron
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+    background-color:#3ea48c
+}
+
+
+
 .carousel {
 
     height:360px;
