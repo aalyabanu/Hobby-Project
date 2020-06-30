@@ -5,24 +5,17 @@
     background-color:#3ea48c
 }
 
+.landingpics
+{
+    display:grid;
+    align-self: start;
+    
+    margin-top: -1em;
 
+}
 
-.carousel {
-
-    height:360px;
-    
-    }
-    
-    .carousel-inner &gt; .item &gt; img {
-    
-    height:360px;
-    
-    object-fit: contain;
-    
-    }
-
-    /* About page */
-    
+/* About page */
+     
 
 .about-title 
 {
