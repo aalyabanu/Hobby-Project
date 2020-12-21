@@ -5,6 +5,6 @@ Stem Sheffield is a hobby project, aiming to provide a simple and colourful way 
 
 
 ## Summary of Tech Stack
-The webpage has been designed purely in using HTML and CSS. In addition to providing a comprehensive understanding of the fundaments, this project has also been helped me understand some new features such as bootstrap cards etc.
+The webpage has been designed purely in using HTML and CSS. In addition to providing a comprehensive understanding of the fundamentals, this project has also been helped me understand some new features such as bootstrap cards.
 
 
