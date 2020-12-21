@@ -1,86 +1,74 @@
-.jumbotron
-{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: white;
-    background-color:#3ea48c
+body {
+  background-color: #fff;
+}
+.jumbotron {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+  background-color: #3ea48c;
+  margin-bottom: 0;
 }
 
-.landingpics
-{
-    display:grid;
-    align-self: start;
-    
-    margin-top: -1em;
-
+.landingpics {
+  display: grid;
+  align-self: start;
 }
 
-/* About page */  
-.about-title 
-{
+/* About page */
+.about-title {
   margin-top: 40px;
-  display:inline-block;
+  display: inline-block;
   font-size: 25px;
-  background:rgba (0,0,0,0.75);
-  color:blueviolet;
-  line-height:35px;
+  background: rgba (0, 0, 0, 0.75);
+  color: blueviolet;
+  line-height: 35px;
   font-weight: bold;
-  font-family: Rubik, Helvetica, Roboto, Arial,sans-serif;
+  font-family: Rubik, Helvetica, Roboto, Arial, sans-serif;
   justify-content: center;
 }
 
-.blockquote
-{
+.blockquote {
   font-size: 20px;
-  color:black; 
-  line-height:35px; 
-  font-family: Rubik, Helvetica, Roboto, Arial,sans-serif;
-
-
+  color: black;
+  line-height: 35px;
+  font-family: Rubik, Helvetica, Roboto, Arial, sans-serif;
 }
-.landing-image
-{
-  width:60%;
+.landing-image {
+  width: 60%;
   margin-top: 20px;
-  border-radius:35%;
-  box-shadow:0 0 20px #999999;
+  border-radius: 35%;
+  box-shadow: 0 0 20px #999999;
 }
 
 /* FORM STYLING */
-.contact-form
-{
-			background:#3ea48c;
-			color:white;
-			margin-top: 50px;
-			padding: 20px;
-			box-shadow: 0px 0px 10px 3px grey;
-      margin-bottom:40px;
-      width: 75%;
- }
+.contact-form {
+  background: #3ea48c;
+  color: white;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 3px grey;
+  margin-bottom: 40px;
+  width: 75%;
+}
 
-.form-header
-{
-
+.form-header {
   text-align: center;
   margin-block-end: 10px;
-  color:antiquewhite;
+  color: antiquewhite;
   font-size: 34px;
   padding-bottom: 20px;
 }
 
-#form-description
-{
-  color:#fff;
-  font-family: Rubik, Helvetica, Roboto, Arial,sans-serif;
-  margin-right: 60px ;
-
+#form-description {
+  color: #fff;
+  font-family: Rubik, Helvetica, Roboto, Arial, sans-serif;
+  margin-right: 60px;
 }
 
 /* Footer */
- .page-footer
-    {   position: fixed;
-        background-color: #9d2e28;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        
-    }
+.page-footer {
+  position: fixed;
+  background-color: #9d2e28;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
