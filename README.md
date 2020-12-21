@@ -1,4 +1,4 @@
-# Stem Sheffield
+# STEM Sheffield
 
 ## Project Brief
 Stem Sheffield is a hobby project, aiming to provide a simple and colourful way to find about Stem Events taking place in Sheffield and beyond. Future extension of this prject could be to enabling users to add events to their calendar and also set reminders for events. 
